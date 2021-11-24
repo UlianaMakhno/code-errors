@@ -1,7 +1,7 @@
 function sum(args){
-    let sum_of_args = 0
-    for (const x of args){
-        sum_of_args = sum_of_args + x
+    let sum_of_args = 0;
+    for (const i of args){
+        sum_of_args = sum_of_args + i
     }
     return sum_of_args;
 }
