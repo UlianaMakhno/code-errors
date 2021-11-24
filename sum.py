@@ -1,5 +1,7 @@
-def sum(first_num, second_num):
-    sum = first_num + second_num
-    return sum
+def sum(args):
+    sum_of_args = 0
+    for i in args:
+        sum_of_args += i
+    return sum_of_args
 
-print(sum(2, 3))
+print(sum([2, 3]))
